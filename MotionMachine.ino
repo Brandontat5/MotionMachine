@@ -73,11 +73,11 @@ void moveUpRamp() {
   rampStepper.moveToPositionInMillimeters(230);
 }
 
-void startStairs () {
+void startStairs() {
   digitalWrite(STAIR_MOTOR_PIN, HIGH);
 }
 
-void stopStairs () {
+void stopStairs() {
   digitalWrite(STAIR_MOTOR_PIN, LOW);
 }
 
