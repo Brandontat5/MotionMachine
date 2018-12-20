@@ -1,19 +1,17 @@
 #include "SpeedyStepper.h"
 #include "RCServo.h"
 
+//variables
+
 SpeedyStepper rampStepper;
 RCServo gateServo;
-
 
 const byte RAMPSTEPPER_PORT = 2;
 const byte GATE_SERVO_PIN = A0;
 const byte BOTTOM_SENSOR = A1;
 const byte TOP_SENSOR = A2;
 const byte RAMP_HOME_LIMIT_SWITCH_PIN = A3;
-
-
 const byte STAIR_MOTOR_PIN = 10;
-
 
 int distance = 230;
 const byte steps = 25;
